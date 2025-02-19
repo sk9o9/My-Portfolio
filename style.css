@@ -1,4 +1,46 @@
-.bg-top {
+body {
     background-color: #f6f6f6;
-    height: 900px;
 }
+
+.top {
+    display: flex;
+}
+
+.left-box {
+    width: 60%;
+
+    height: 680px;
+    text-align: center;
+}
+.left-box p {
+    font-family: "Montserrat", serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #8c52ff;
+    margin-top: 70px;
+}
+.left-box h1 {
+    font-family: 'Bogart', sans-serif;
+    font-weight: normal;
+    font-size: 115px;
+    color: #8c52ff;
+}
+.same-line {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.right-box {
+    width: 40%;
+
+    height: 680px;
+}
+
+.right-box img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
