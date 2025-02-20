@@ -227,6 +227,123 @@ html, body {
     display: flex;
 }
 
+.about-me-heading h1{
+    font-family: "bogart", serif;
+    font-weight: normal;
+    font-size: 65px;
+    margin-bottom: 0;
+    color: #8c52ff;
+    text-align: center;
+}
+
+.container-about-me{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.about-me-text{
+    height: 550px;
+    background-color: #f6f6f6;
+    width: 50%;
+    font-family: "bogart", serif;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: justify;
+    margin-left: 110px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.about-me-img {
+    display: flex;
+    width: 50%;
+    margin-right: 110px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.get-in-touch h1{
+    font-family: "bogart", serif;
+    font-weight: normal;
+    font-size: 65px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    color: #8c52ff;
+    text-align: center;
+}
+
+.get-in-touch{
+    margin-top: 90px;
+}
+
+.container-get-in-touch{
+    display: flex;
+    height: 550px;
+    margin-top: 30px;
+}
+
+.get-in-touch-left{
+    width: 50%;
+
+}
+
+.get-in-touch-right{
+    width: 50%;
+
+}
+
+.get-in-touch-left{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+
+.fa {
+    padding: 20px;
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 30px;
+    width: 50px;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+.fa:hover {
+    opacity: 0.9;
+}
+
+.get-in-touch-right p{
+    font-family: "bogart", serif;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.get-in-touch-right {
+    padding-top: 247px;
+    margin-left: 50px;
+}
+
+
 
 
 
