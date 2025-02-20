@@ -25,6 +25,13 @@ html, body {
     color: #8c52ff;
     margin-top: 120px;
 }
+.left-box a {
+    font-family: "Montserrat", serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #8c52ff;
+    margin-top: 120px;
+}
 
 .left-box h1 {
     font-family: 'Bogart', sans-serif;
@@ -75,18 +82,72 @@ html, body {
     flex-wrap: wrap;
 }
 
-.flex-item {
+.flex-container-2nd-row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.flex-item-1, .flex-item-2, .flex-item-3, .flex-item-4, .flex-item-5, .flex-item-6 {
     width: 241px;
     height: 198px;
     background-color: #f6f6f6;
 }
 
-.flex-container-2nd-row{
+.image-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    margin-top: 60px;
-    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
 }
+
+.flex-item-1 .image-container img {
+    width: 70%;
+    height: auto;
+    object-fit: contain;
+}
+
+.flex-item-2 .image-container img {
+    width: 44%;
+    height: auto;
+    object-fit: contain;
+}
+
+.flex-item-3 .image-container img {
+    width: 110%;
+    height: auto;
+    object-fit: contain;
+}
+
+.flex-item-4 .image-container img {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+}
+
+.flex-item-5 .image-container img {
+    width: 75%;
+    height: auto;
+    object-fit: contain;
+}
+
+.flex-item-6 .image-container img {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+}
+
+.flex-container.My-projects {
+    display: flex;
+    border: 1px solid black;
+}
+
+
+
+
+
 
 
